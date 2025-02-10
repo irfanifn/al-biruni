@@ -2,4 +2,14 @@ body {
   border: 1px black solid;
   max-width: 1400px;
   margin: auto;
+  font-family: "Roboto", sans-serif;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hero-img > img {
+  width: 450px;
 }
