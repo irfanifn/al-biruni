@@ -1,5 +1,5 @@
 body {
-  border: 1px black solid;
+  border: 2px #1f2937 solid;
   max-width: 1400px;
   margin: auto;
   font-family: "Roboto", sans-serif;
@@ -37,7 +37,7 @@ h1 {
   margin-top: 2px;
 }
 
-a {
+.hero-al-biruni > a {
   font-size: 16px;
   color: #f9faf8;
   font-weight: 900;
@@ -97,4 +97,30 @@ cite {
   justify-content: end;
   font-style: normal;
   font-weight: 900;
+}
+
+.cta-section {
+  padding: 50px 0;
+}
+
+.cta {
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1000px;
+  color: #ffffff;
+  background-color: #3882f6;
+  padding: 20px 40px;
+  border-radius: 10px;
+}
+
+.cta > a {
+  border: 1px #ffffff solid;
+  text-decoration: none;
+  color: #f9faf8;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: 900;
+  border-radius: 5px;
 }
