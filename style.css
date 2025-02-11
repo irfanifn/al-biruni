@@ -73,3 +73,28 @@ figcaption {
   font-size: 12px;
   text-align: center;
 }
+
+.quote-section {
+  background-color: #e5e7eb;
+  padding: 100px 0;
+}
+
+.quote {
+  width: 800px;
+  margin: auto;
+}
+
+.quote > p {
+  font-size: 26px;
+  font-style: italic;
+  font-weight: 100;
+  color: #1f2937;
+  text-align: left;
+}
+
+cite {
+  display: flex;
+  justify-content: end;
+  font-style: normal;
+  font-weight: 900;
+}
