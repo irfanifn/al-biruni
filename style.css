@@ -46,3 +46,30 @@ a {
   padding: 5px 10px;
   border-radius: 5px;
 }
+
+.section-title {
+  text-align: center;
+  font-size: 18px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.contribution-item {
+  display: flex;
+  justify-content: center;
+}
+
+.contribution-image {
+  width: 200px;
+}
+
+.contribution-image > img {
+  width: 200px;
+  border-radius: 10px;
+  border: 4px #3882f6 solid;
+}
+
+figcaption {
+  font-size: 12px;
+  text-align: center;
+}
